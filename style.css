@@ -1,89 +1,153 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
+    body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 248, 224);
 }
-#first{
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    color: burlywood;
+header{
+    z-index: 1;
+    position: absolute;
+    right: 0; 
+    left: 0;
+    display: flex;  
+    margin: 0;
+    min-height: 9.375rem;
 }
-#first:hover{
-    opacity:1.2;
-}
-#button2{
-    display : none;
-    color: aquamarine;
-    background-color:burlywood;
-}
-#button1{
-    background-color: aquamarine;
-    color:burlywood;
-
+#headerin{
+    background: url("images/showcase.jpg"); 
+    position: fixed ;
 }
 
-.button{
+.container{
+    margin:1.25rem 1.25rem 0 1.25rem;
+}
+.logo {
+    color:#7d0102;
+}
+.logo h1{
+    margin: 0;
+    margin-top: 0.3125rem;
+}
+.logo a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color:inherit;
+}
+.dropdown{
+     position: absolute;    
+     top: 2rem;
+     right: 2rem;
+    }  
+.btn{
     border: 0;
-    padding: 10px;
-    font-size: 1rem;
-    display: block;
-    margin: auto;
+    color:#fff;
+    height: 3.125rem;
+    padding: 0 0.625rem 0 0.625rem;
+    background-color: #7d0102;
 }
-.button:hover{
-    cursor: pointer;
-}
-#button1:hover{
-    transition: ease-in 0.5s;
-    background-color: rgb(246, 225, 198);
-    color: rgb(77, 174, 142);
-}
-#button2:hover{
-    transition: ease-in 0.5s;
-    color: rgb(246, 225, 198);
-    background-color: rgb(77, 174, 142);
-}
-.Anime_pics{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 25rem;
-    padding-top: 0.5rem;
 
-}   
-.imgs{
+.dropdown-content ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 3.125rem;
+    background-color: #fff;
+    width: 8.09375rem;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
     display: none;
 }
-.imgs:hover{
-    transition: ease-in 0.25s;
-    opacity: 0.5;
+.dropdown-content ul li{
+    list-style: none;
+    padding: 0.625rem;
 }
-#img1{
-    display: flex;
+.dropdown-content ul li a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: black;
+}
+.dropdown-content ul li:hover{
+    background-color: rgb(240, 240, 240);
+}
+.dropdown-content ul li:hover a{
+    font-weight: bold;
+    /**transition: 0.5s ease-in;**/
 }
 
-#btn_pic1{
-    background-image :  url('pics/btn_left.svg');
-    background-image: none;
-    background-color: white;
-    
-    background-size: cover;
-    margin: auto;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    border: 0;
-    cursor:auto;
+.dropdown:hover .dropdown-content ul{
+    display: block;
 }
-#btn_pic2{
-    background-image :  url('pics/btn_right.svg');
-    background-size: cover;
-    margin: auto;
+.dropdown button:hover{
     cursor: pointer;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    border: 0;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in;
+    background-color: #ffeac4;
+    color: #7d0102;
 }
-.btn_pics:hover{
-    transition:  ease-in 0.25s;
-    opacity: 0.5;
+.nav-bar ul{
+    background-color: #7d0102;
+    margin: 0;
+    padding:0;
+    position:absolute;
+    top: 6.25rem;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 2.5rem;
+    text-align:center;
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+}
+.nav-bar ul li{
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    list-style: none;
+    border-radius: 0.5rem;
+}
+.nav-bar ul .highlight{
+    font-weight: bolder;
+}
+.nav-bar ul li:hover {
+    background-color: #fff;
+    text-decoration: underline;
+}
+a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;  
+}
+.nav-bar li:hover a{
+    color: #7d0102;
+    transition: 0.5s ease-in;
+}
+.showcase-image{
+    background:url("images/showcase.jpg") no-repeat center;
+    background-size: cover;
+    height: 60.625rem; 
+    position: relative;
+}
+.showcase-text{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showcase-text h1{
+    font-size: 3.125rem;
+    margin: 0;
+    margin-bottom: 3.125rem;
+}
+.Enroll a{
+    height:6.25rem;
+    background-color: #7d0102;
+    padding:  0.625rem;
+}
+ .showcase-text a:hover{
+    transition:0.5s ease-in;
+    border:0.0625rem solid #7d0102;
+    color: #7d0102;
+    background-color: #ffeac4;
 }
