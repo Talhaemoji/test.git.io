@@ -59,7 +59,8 @@ header{
 }
 .dropdown-content ul li{
     list-style: none;
-    padding: 0.625rem;
+    padding-top: 0.625rem;
+    padding-buttom:0.625rem;
     text-align: centre;
 }
 .dropdown-content ul li a{
