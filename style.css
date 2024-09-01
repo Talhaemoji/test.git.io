@@ -13,7 +13,7 @@ header{
     min-height: 9.375rem;
 }
 #headerin{
-    background: url("showcase.jpg")
+    background: url("showcase.jpg");
     position: fixed ;
 }
 
