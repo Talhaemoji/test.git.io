@@ -51,7 +51,7 @@ header{
     position: absolute;
     top: 3.125rem;
     background-color: #fff;
-    width: 8.09375rem;
+    max-width: 8.09375rem;
     z-index: 1;
     text-align: center;
     box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
@@ -124,7 +124,7 @@ a{
     transition: 0.5s ease-in;
 }
 .showcase-image{
-    background:url("images/showcase.jpg") no-repeat center;
+    background:url("showcase.jpg") no-repeat center;
     background-size: cover;
     height: 60.625rem; 
     position: relative;
