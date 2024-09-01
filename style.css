@@ -1,0 +1,89 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: burlywood;
+}
+#first:hover{
+    opacity:1.2;
+}
+#button2{
+    display : none;
+    color: aquamarine;
+    background-color:burlywood;
+}
+#button1{
+    background-color: aquamarine;
+    color:burlywood;
+
+}
+
+.button{
+    border: 0;
+    padding: 10px;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+}
+.button:hover{
+    cursor: pointer;
+}
+#button1:hover{
+    transition: ease-in 0.5s;
+    background-color: rgb(246, 225, 198);
+    color: rgb(77, 174, 142);
+}
+#button2:hover{
+    transition: ease-in 0.5s;
+    color: rgb(246, 225, 198);
+    background-color: rgb(77, 174, 142);
+}
+.Anime_pics{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+    padding-top: 0.5rem;
+
+}   
+.imgs{
+    display: none;
+}
+.imgs:hover{
+    transition: ease-in 0.25s;
+    opacity: 0.5;
+}
+#img1{
+    display: flex;
+}
+
+#btn_pic1{
+    background-image :  url('pics/btn_left.svg');
+    background-image: none;
+    background-color: white;
+    
+    background-size: cover;
+    margin: auto;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    cursor:auto;
+}
+#btn_pic2{
+    background-image :  url('pics/btn_right.svg');
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+}
+.btn_pics:hover{
+    transition:  ease-in 0.25s;
+    opacity: 0.5;
+}
