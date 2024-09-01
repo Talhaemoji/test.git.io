@@ -13,7 +13,7 @@ header{
     min-height: 9.375rem;
 }
 #headerin{
-    background: url("https://talhaemoji.github.io/test.git.io/showcase.jpg");
+    background: url("showcase.jpg");
     position: fixed ;
 }
 
@@ -124,7 +124,7 @@ a{
     transition: 0.5s ease-in;
 }
 .showcase-image{
-    background:url("https://talhaemoji.github.io/test.git.io/showcase.jpg") no-repeat center;
+    background:url("showcase.jpg") no-repeat center;
     background-size: cover;
     height: 60.625rem; 
     position: relative;
