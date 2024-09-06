@@ -51,16 +51,15 @@ header{
     position: absolute;
     top: 3.125rem;
     background-color: #fff;
-    width: 8.09375rem;
+    max-width: 8.0843125rem;
     z-index: 1;
     text-align: center;
     box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
     display: none;
-    max-width: 8.0843125rem;
 }
 .dropdown-content ul li{
     list-style: none;
-    padding: 0.625rem 0.625rem 0 0;
+    padding: 0.625rem 0 0.625rem 0;
     text-align: centre;
 }
 .dropdown-content ul li a{
