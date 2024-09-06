@@ -50,6 +50,7 @@ header{
     padding: 0;
     position: absolute;
     top: 3.125rem;
+    left: 2rem;
     background-color: #fff;
     width: 8.0843125rem;
     z-index: 1;
