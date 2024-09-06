@@ -126,8 +126,11 @@ a{
 .showcase-image{
     background:url("showcase.jpg") no-repeat center;
     background-size: cover;
-    height: 60.625rem; 
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .showcase-text{
     text-align: center;
